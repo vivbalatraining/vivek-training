@@ -7,11 +7,11 @@ def add(a, b):
     if b is None:
         return a
 
-    if type1 is not int:
-        raise TypeError('First input parameter must be an int. Instead it is '+str(type1))
+    #if type1 is not int:
+    #    raise TypeError('First input parameter must be an int. Instead it is '+str(type1))
 
-    if type2 is not int:
-        raise TypeError('Second input parameter must be an int. Instead it is '+str(type2))
+    #if type2 is not int:
+    #    raise TypeError('Second input parameter must be an int. Instead it is '+str(type2))
 
     if type1 is None:
         raise TypeError('First input parameter must be an int. Instead it is Null')
